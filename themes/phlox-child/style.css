@@ -1,0 +1,305 @@
+/* ==============================================================================
+Theme Name: Phlox Pro Child
+Theme URI: http://phlox.pro/
+Author: averta
+Author URI: http://www.phlox.pro
+Description: Phlox Child Theme
+Template: phlox
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column,two-columns, three-columns, left-sidebar, right-sidebar
+Text Domain: phlox-child
+================================================================================= */
+.custom-container{
+    position: relative;
+    height: 50%;
+    top: 50%;
+}
+.custom-page-container {
+    /* width: 1432px; 
+    height: 1170px;  */
+    width: 100%; 
+    height: 100%;
+    /* height: auto; */
+    display: block;
+    /* display: flex; */
+    /* position: fixed; */
+    position: absolute;
+    /* top: 0; */
+    flex-flow: column;
+    gap: 0px;
+    padding: 0px 229px 231.81px 228px;
+    align-items: center; 
+    justify-content: center; 
+    background-color: #121212; 
+    opacity: 1;
+    z-index: -1;
+}
+
+.inner-group {
+    width: 67%; 
+    height: 126.62%;   
+    background: linear-gradient(156.2deg, rgba(0, 105, 165, 0.5) 15.3%, rgba(30, 0, 149, 0.5) 38.43%, rgba(165, 0, 89, 0.5) 61.57%, rgba(164, 63, 0, 0.5) 84.7%);
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.4); 
+    position: relative;
+    border-radius: 50%;
+    filter: blur(50px);
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.vector {
+    width: 64.62%; 
+    height: 50%; 
+    background: linear-gradient(156.2deg, rgba(0, 105, 165, 0.5) 15.3%, rgba(30, 0, 149, 0.5) 38.43%, rgba(165, 0, 89, 0.5) 61.57%, rgba(164, 63, 0, 0.5) 84.7%);
+    position: relative;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(-270deg); 
+    border-radius: 50%;
+    box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.4); 
+    opacity: 1; 
+    filter: blur(50px);
+    z-index: 2;
+}
+.filtering-text {
+    /* width: 524px;
+    height: 21px;
+    position: relative; */
+    /* top: 30%; */
+    /* left: 50%; */
+    display: flex;
+    justify-content: center;
+    /* transform: translateX(-50%); */
+    /* background-color: #00F3FF;  */
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.28px;
+    text-align: center;
+    color: #00F3FF; /* #FFFFFF */
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5); 
+    opacity: 1;
+    z-index: 3;
+}
+
+.heading-paragraph-container{
+    display: flex;
+    flex-flow: column;
+    /* gap: 50px; */
+    height: 30%;
+    padding: 5%;
+    align-items: center;
+    justify-content: center; 
+    z-index: 3;
+}
+
+.heading-2{
+    /* width: 524px;
+    height: 56px; */
+    /* top: 1104px;
+    left: 454px; */
+    /* position: relative; */
+    /* display: flex;
+    justify-content: center; */
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.86px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 3;
+}
+.paragraph-section-2{
+    /* width: 524px;
+    height: 64px; */
+    /* top: 1180px;
+    left: 454px; */
+    /* position: relative;
+    justify-content: center; */
+    font-family: Segoe UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35.86px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 3;
+}
+
+.paragraph-highlight{
+    font-family: Segoe UI;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 3;
+}
+
+body{
+    /* height: 100%; */
+    height: auto;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+#inner-body{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropbtn {
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px solid white; 
+    cursor: pointer;
+    width: 300px; 
+    text-align: center; 
+    color: #000;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: inline-block; 
+    outline: none; 
+    transition: all 0.5s; 
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f9f9f9;
+    min-width: 160px;  
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.caret {
+    margin-left: 5px;
+    vertical-align: middle; 
+}
+
+
+.Green_1 , .Green_2, .Black_1, .Black_2, .Blue_1, .Blue_2{
+    text-align: center; 
+    z-index: 3;
+}
+
+.Green_1>img , .Green_2>img, .Black_1>img, .Black_2>img, .Blue_1>img, .Blue_2>img  {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 410px;
+    z-index: 3;
+}
+
+.Green_1>p, .Green_2>p, .Black_1>p, .Black_2>p, .Blue_1>p, .Blue_2>p {
+    margin-top: 10px; 
+    z-index: 3;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 53.2px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.aux-elementor-header{
+    display: none;
+}
+.elementor-container{
+    /* width: 100%;
+    height: 100%; */
+    position: relative;
+    top: 0%;
+}
+
+.custom-footer {
+    background: #000000;
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+.footer-logo{
+    width: 25%;
+}
+.footer-logo>img {
+    /* width: 186px;  */
+    width: 20%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 30%;
+}
+
+.social-icons a {
+    color: #00F3FF;
+    margin-right: 10px; 
+    font-size: 24px; 
+}
+.explore{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.explore-container>h4{
+    margin-top: -10%;
+}
+/* .explore h4 {
+    margin-bottom: 10px;
+} */
+
+.explore a {
+    display: block;
+    flex: 0 0 33.33%;
+    color: #00F3FF;
+    margin-bottom: 5px; 
+    cursor: pointer;
+}
+
+.footer-copy {
+    text-align: end;
+    margin-top: 20px;
+}

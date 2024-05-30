@@ -1,0 +1,22 @@
+.elementor-118 .elementor-element.elementor-element-615d04c .elementor-wrapper{--video-aspect-ratio:1.77777;}/* Start custom CSS for video, class: .elementor-element-615d04c */.custom-video-overlay {
+    position: relative;
+    overflow: hidden;
+}
+
+.custom-video-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+                linear-gradient(180deg, rgba(0, 0, 0, 0.85) 6.42%, rgba(0, 0, 0, 0.01) 20.32%),
+                linear-gradient(90deg, rgba(0, 0, 0, 0.85) 23.64%, rgba(0, 0, 0, 0.04) 44.62%);
+    z-index: 1;
+}
+
+.custom-video-overlay video {
+    position: relative;
+    z-index: 0;
+}/* End custom CSS */

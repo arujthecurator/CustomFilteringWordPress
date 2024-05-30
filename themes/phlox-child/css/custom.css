@@ -1,0 +1,112 @@
+/* .slick-prev .slick-prev:before .slick-prev:after {
+    left: 10px;
+    background-color: #333333; 
+}
+
+.slick-next .slick-next:before .slick-next:after{
+    right: 10px;
+    background-color: #333333; 
+}
+
+.slick-prev {
+    left: 10px;
+    background-color: #333333;
+}
+
+.slick-next {
+    right: 10px;
+    background-color: #333333;
+}
+
+
+.slick-dots li button:before {
+    color: #333333; 
+}
+
+.slick-dots {
+    text-align: center;
+    padding: 10px 0;
+} */
+
+
+/* .slick-slide {
+    transition: transform 0.3s ease-out;
+}
+
+.slick-center {
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.slick-slide:not(.slick-center) {
+    transform: scale(0.8);
+    opacity: 0.6;
+}  */
+
+.carousel-container {
+    height: 500px;
+    /* width: 80%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.filtering {
+    display: block;
+    /* width: 80%; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    
+}
+
+.dots-and-arrows-cont {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slick-prev, .slick-next {
+    background-color: black;
+}
+
+.prev-button, .next-button {
+    /* display: inline; */
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+.next-button::before {
+    /* content: '\2192'; */
+    display: flex;
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+    width: 15px;
+    height: 15px;
+}
+
+.slick-dots {
+    position: relative;
+    bottom: 0px;
+    width: auto;
+}
+
+.slick-dots > li > button::before {
+    content: '';
+    background-color: black;
+    border-radius: 50%; 
+}
+
+
+.slick-dots > li.slick-active > button:before {
+    width: 22px;
+    height: 22px;
+    background-color: turquoise;
+}
