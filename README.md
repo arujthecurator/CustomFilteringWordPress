@@ -1,7 +1,5 @@
 # CustomFilteringWordPress
-This project aims in building the webpage using WordPress for performing filtering functionality with the emphasis on custom coding using the child template and integrating different webpages built on WordPress platform.
-
-The 
+This project aims in building two parts of a webpage using WordPress for performing filtering functionality with the emphasis on custom coding using the child template and integrating different webpages built on WordPress platform.
 
 # WordPress Project Setup
 
@@ -60,9 +58,9 @@ The custom code includes a dynamic filtering feature that enhances user interact
 
 By following these steps, you should be able to set up and run the WordPress website locally on your machine. If you encounter any issues, please refer to the detailed instructions or troubleshooting guides available online.
 
-## Demo of the WebPage-
+## Demo of the WebPage
 
-You can follow [this link](#) for the demo of the application. 
+You can follow [this link](https://drive.google.com/file/d/1bLFFrGDfm7XFj1WEaChOZLkVVIPlMMzu/view?usp=sharing) for the demo of the webpages created in this project. 
 
 ## Phlox Theme
 
@@ -70,7 +68,7 @@ The Phlox Free Elementor WordPress Theme is used here. It can be downloaded by f
 
 ## Video Used in the Background of the WebPage
 
-The video used in the background of the web page is taken from[pexels.com](https://www.pexels.com/). The video is titled ["a-person-putting-a-helmet-on-a-head-sculpture"](https://www.pexels.com/video/a-person-putting-a-helmet-on-a-head-sculpture-7237098/) uploaded by [Alena Darmel](https://www.pexels.com/@a-darmel/)
+The video used in the background of the web page is taken from [pexels.com](https://www.pexels.com/). The video is titled  ["a-person-putting-a-helmet-on-a-head-sculpture"](https://www.pexels.com/video/a-person-putting-a-helmet-on-a-head-sculpture-7237098/)  uploaded by [Alena Darmel](https://www.pexels.com/@a-darmel/)
 
 
 
